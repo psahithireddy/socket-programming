@@ -1,0 +1,39 @@
+                    SOCKET PROGRAMMING
+
+Language used: C
+OS:ubuntu 18.04
+
+
+To COMPILE and RUN:
+
+1)gcc server.c -o server
+2)./server
+open a new terminal and RUN
+3) gcc client.c -o client
+4)./client 
+
+//enter your commands in client side terminal when prompted //
+
+
+DESCRIPTION:
+The server and client will be two different programs that will be run in different directories.
+The client will create a connection to the server and send requests to download files to the client
+directory. It will write the files into its own directory.
+
+IMPLEMENTED THE FOLLOWING:
+
+1) get <filename1> <filename2> .....
+    
+The files if exists at the server side is downloaded in the client directory else appropriate
+error is displayed. 
+
+2)list 
+
+lists all the files that are available to download (those exists in server directory)
+
+3)exit
+exits both server and client program
+
+
+
+

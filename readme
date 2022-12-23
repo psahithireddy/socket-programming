@@ -3,7 +3,6 @@
 Language used: C
 OS:ubuntu 18.04
 
-
 To COMPILE and RUN:
 
 1)gcc server.c -o server
